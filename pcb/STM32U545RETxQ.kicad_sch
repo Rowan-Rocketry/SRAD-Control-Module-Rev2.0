@@ -3304,6 +3304,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 109.22) (xy 133.35 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "029c0313-b893-4120-88f1-7bab44e9460e")
+	)
+	(wire
+		(pts
 			(xy 41.91 139.7) (xy 41.91 147.32)
 		)
 		(stroke
@@ -3968,7 +3978,7 @@
 	)
 	(hierarchical_label "SD_CLK"
 		(shape output)
-		(at 133.35 109.22 180)
+		(at 124.46 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4225,7 +4235,7 @@
 		(dnp no)
 		(uuid "0ca74434-0a68-45e1-98f3-97c253c5a0ef")
 		(property "Reference" "TP_ADC_BAT_DIV"
-			(at 212.852 110.744 0)
+			(at 215.646 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
