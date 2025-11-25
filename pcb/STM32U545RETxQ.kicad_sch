@@ -3107,12 +3107,6 @@
 		(uuid "cf65c745-1f76-428b-821a-5ba32847b300")
 	)
 	(junction
-		(at 199.39 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0561021c-e528-411a-80cf-9eb02f5ac955")
-	)
-	(junction
 		(at 156.21 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3514,16 +3508,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 104.14) (xy 199.39 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95f74d53-7243-4829-83d3-e2d320a9bd50")
-	)
-	(wire
-		(pts
 			(xy 128.27 63.5) (xy 133.35 63.5)
 		)
 		(stroke
@@ -3554,7 +3538,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 104.14) (xy 184.15 104.14)
+			(xy 184.15 104.14) (xy 207.01 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4220,81 +4204,6 @@
 			(project "control-module"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
 					(reference "TP_SD_EJECT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 199.39 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ca74434-0a68-45e1-98f3-97c253c5a0ef")
-		(property "Reference" "TP_ADC_BAT_DIV1"
-			(at 215.646 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 209.296 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 194.31 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 194.31 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 199.39 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase" "https://www.digikey.com/en/products/detail/keystone-electronics/5000/255326"
-			(at 199.39 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1552a6c5-5448-4f6d-a7aa-221a115f7f52")
-		)
-		(instances
-			(project "control-module"
-				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "TP_ADC_BAT_DIV1")
 					(unit 1)
 				)
 			)
