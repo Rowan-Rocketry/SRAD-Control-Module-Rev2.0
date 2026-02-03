@@ -9781,7 +9781,7 @@
 		)
 	)
 	(sheet
-		(at 29.21 181.61)
+		(at 17.78 162.56)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9797,7 +9797,7 @@
 		)
 		(uuid "fc9e3a2d-4610-4d80-a238-b7d530352ab2")
 		(property "Sheetname" "Ublox_GPS_module"
-			(at 29.21 180.8984 0)
+			(at 17.78 161.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9806,7 +9806,7 @@
 			)
 		)
 		(property "Sheetfile" "GPS_module.kicad_sch"
-			(at 29.21 186.0046 0)
+			(at 17.78 166.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
