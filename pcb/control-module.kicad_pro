@@ -695,6 +695,10 @@
     [
       "df83429b-f2ab-448f-b3ce-9aa6514ebb89",
       "STLink"
+    ],
+    [
+      "fc9e3a2d-4610-4d80-a238-b7d530352ab2",
+      "Ublox_GPS_module"
     ]
   ],
   "text_variables": {}

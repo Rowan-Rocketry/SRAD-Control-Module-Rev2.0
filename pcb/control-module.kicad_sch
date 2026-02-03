@@ -9780,6 +9780,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 29.21 181.61)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc9e3a2d-4610-4d80-a238-b7d530352ab2")
+		(property "Sheetname" "Ublox_GPS_module"
+			(at 29.21 180.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS_module.kicad_sch"
+			(at 29.21 186.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "control-module"
+				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec"
+					(page "10")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
