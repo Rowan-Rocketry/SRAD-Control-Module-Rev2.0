@@ -9781,8 +9781,8 @@
 		)
 	)
 	(sheet
-		(at 19.05 177.8)
-		(size 20.32 8.89)
+		(at 22.86 179.07)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9795,9 +9795,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "e420ba17-febf-46a7-881f-e85f549dccfe")
-		(property "Sheetname" "Transmitter"
-			(at 19.05 177.0884 0)
+		(uuid "e9123753-6f69-4755-8149-390f393c9b11")
+		(property "Sheetname" "transmitter"
+			(at 22.86 178.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9805,8 +9805,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../../Radio-Module/pcb/Radio-Module/transmitter.kicad_sch"
-			(at 19.05 187.2746 0)
+		(property "Sheetfile" "transmitter.kicad_sch"
+			(at 22.86 183.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
