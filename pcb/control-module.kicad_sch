@@ -9781,6 +9781,48 @@
 		)
 	)
 	(sheet
+		(at 19.05 177.8)
+		(size 20.32 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e420ba17-febf-46a7-881f-e85f549dccfe")
+		(property "Sheetname" "Transmitter"
+			(at 19.05 177.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../Radio-Module/pcb/Radio-Module/transmitter.kicad_sch"
+			(at 19.05 187.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "control-module"
+				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 162.56)
 		(size 12.7 3.81)
 		(exclude_from_sim no)

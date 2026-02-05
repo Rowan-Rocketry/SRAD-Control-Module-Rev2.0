@@ -699,6 +699,10 @@
     [
       "fc9e3a2d-4610-4d80-a238-b7d530352ab2",
       "Ublox_GPS_module"
+    ],
+    [
+      "e420ba17-febf-46a7-881f-e85f549dccfe",
+      "Transmitter"
     ]
   ],
   "text_variables": {}
