@@ -3,7 +3,13 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "536b5012-9507-4fcd-be50-0266b5884d06")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "Control Module Rev2")
+		(date "2026-02-10")
+		(rev "2.0")
+		(company "Rowan Rocketry")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_ST_STDC14"
 			(exclude_from_sim no)
@@ -716,7 +722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06c5d6d1-b7bc-4ff8-886a-99a3b5f94b70")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR088"
 			(at 130.81 121.92 0)
 			(effects
 				(font
@@ -766,7 +772,7 @@
 		(instances
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/df83429b-f2ab-448f-b3ce-9aa6514ebb89"
-					(reference "#PWR0103")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -897,7 +903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c0ebca2-92a1-4c44-81eb-904da81b819f")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR087"
 			(at 129.54 77.47 0)
 			(effects
 				(font
@@ -947,7 +953,7 @@
 		(instances
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/df83429b-f2ab-448f-b3ce-9aa6514ebb89"
-					(reference "#PWR0101")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -963,7 +969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e245fdb6-a852-4577-ab0b-3df9b9cf18c0")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR086"
 			(at 125.73 121.92 0)
 			(effects
 				(font
@@ -1013,7 +1019,7 @@
 		(instances
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/df83429b-f2ab-448f-b3ce-9aa6514ebb89"
-					(reference "#PWR0102")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
