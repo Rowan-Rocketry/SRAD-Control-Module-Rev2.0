@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "4f204146-e0c4-4bec-9491-b9d1bf6bf8a3")
-	(paper "A4")
+	(paper "USLetter")
 	(title_block
-		(title "Ride-Along Module")
-		(date "2025-04-10")
-		(rev "1")
+		(title "Control Module Rev2")
+		(date "2026-02-10")
+		(rev "2.0")
 		(company "Rowan Rocketry")
 	)
 	(lib_symbols
@@ -3155,24 +3155,6 @@
 		(uuid "7e620232-6bd7-4500-a994-993bd5d6116e")
 	)
 	(junction
-		(at 198.12 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95876847-6897-4bb1-8912-866a350a2080")
-	)
-	(junction
-		(at 119.38 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a029d37b-5130-4afa-9fba-be506a430960")
-	)
-	(junction
-		(at 129.54 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2e6142d-ff18-4592-812b-405772fd3fce")
-	)
-	(junction
 		(at 168.91 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3318,7 +3300,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 73.66) (xy 119.38 73.66)
+			(xy 115.57 73.66) (xy 133.35 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3348,23 +3330,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 96.52) (xy 198.12 96.52)
+			(xy 184.15 96.52) (xy 203.2 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "21c24e91-dc6e-4f0e-9c02-f1421d09dccd")
-	)
-	(wire
-		(pts
-			(xy 203.2 96.52) (xy 198.12 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b77ac87-12a0-44ba-8364-d6af5bd803ef")
 	)
 	(wire
 		(pts
@@ -3395,16 +3367,6 @@
 			(type default)
 		)
 		(uuid "39beb524-8752-4a9d-8109-8a6d04c33997")
-	)
-	(wire
-		(pts
-			(xy 119.38 73.66) (xy 133.35 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41b4df58-1800-4e3b-a872-7f282b7ba734")
 	)
 	(wire
 		(pts
@@ -3658,7 +3620,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 58.42) (xy 129.54 58.42)
+			(xy 125.73 58.42) (xy 133.35 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3685,16 +3647,6 @@
 			(type default)
 		)
 		(uuid "e7cb6141-19ee-492d-b753-300ea2d11a44")
-	)
-	(wire
-		(pts
-			(xy 129.54 58.42) (xy 133.35 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9382d63-4414-48ac-8d55-84efacc477bd")
 	)
 	(wire
 		(pts
@@ -4145,156 +4097,6 @@
 		(uuid "fde51c41-98b2-447d-9eff-0b0c8ceefa27")
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 129.54 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00f2b3e4-15e7-44df-a7da-006a181295b0")
-		(property "Reference" "TP_NRST1"
-			(at 119.634 51.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 119.634 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 134.62 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 134.62 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 129.54 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase" "https://www.digikey.com/en/products/detail/keystone-electronics/5000/255326"
-			(at 129.54 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a844cb10-56b1-447d-98e1-c692416f91d7")
-		)
-		(instances
-			(project "control-module"
-				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "TP_NRST1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 198.12 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07823d01-7450-47e5-8c86-99d57b1b72e1")
-		(property "Reference" "TP_SD_EJECT1"
-			(at 211.582 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 208.026 100.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 193.04 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 193.04 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 198.12 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase" "https://www.digikey.com/en/products/detail/keystone-electronics/5000/255326"
-			(at 198.12 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef3ab0a2-d63e-4023-9947-4bb9a8461837")
-		)
-		(instances
-			(project "control-module"
-				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "TP_SD_EJECT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_ST_STM32U5:STM32U545RETxQ")
 		(at 158.75 96.52 0)
 		(unit 1)
@@ -4584,7 +4386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2071b8ec-abd2-4c9a-9f47-2e88ef8e01d9")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR049"
 			(at 151.13 148.59 0)
 			(effects
 				(font
@@ -4640,7 +4442,7 @@
 			)
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR050")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4655,7 +4457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2096e7a7-5591-4854-bc8f-7b0726205182")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR051"
 			(at 156.21 148.59 0)
 			(effects
 				(font
@@ -4711,7 +4513,7 @@
 			)
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR052")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4965,7 +4767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "278ac572-a5ee-4d22-b3ec-f2f344245e48")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 54.61 138.43 0)
 			(effects
 				(font
@@ -5021,7 +4823,7 @@
 			)
 			(project "STM32U545RE"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5037,7 +4839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "386ec2e9-a3b2-43a1-88c3-602e4841b74f")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR052"
 			(at 161.29 148.59 0)
 			(effects
 				(font
@@ -5093,82 +4895,7 @@
 			)
 			(project "STM32U545RE"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 119.38 73.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b9a81c5-ff98-4650-b889-51872b174449")
-		(property "Reference" "TP_BOOT1"
-			(at 118.364 78.994 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 117.856 76.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 114.3 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 114.3 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 119.38 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase" "https://www.digikey.com/en/products/detail/keystone-electronics/5000/255326"
-			(at 119.38 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f86cda37-1cef-4ae7-91c4-b1c26a56b948")
-		)
-		(instances
-			(project "control-module"
-				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "TP_BOOT1")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5184,7 +4911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ef4bf8d-e796-4325-9e7a-20437b233994")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 41.91 161.29 0)
 			(effects
 				(font
@@ -5240,7 +4967,7 @@
 			)
 			(project "STM32U545RE"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR042")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5331,7 +5058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5087db54-c74e-48a6-8626-0d1bfdf8976f")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 41.91 113.03 0)
 			(effects
 				(font
@@ -5387,7 +5114,7 @@
 			)
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5482,7 +5209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e485c9f-68a3-4ba5-848b-a37794373dea")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR046"
 			(at 67.31 113.03 0)
 			(effects
 				(font
@@ -5538,7 +5265,7 @@
 			)
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR047")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5554,7 +5281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6de06e1e-3af7-4dae-aa2d-7e4f87e16643")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 54.61 161.29 0)
 			(effects
 				(font
@@ -5610,7 +5337,7 @@
 			)
 			(project "STM32U545RE"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5626,7 +5353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7327b0ca-f337-4267-b43d-2d2f8b518a7d")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR054"
 			(at 168.91 41.91 0)
 			(effects
 				(font
@@ -5676,7 +5403,7 @@
 		(instances
 			(project "control-module"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR055")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5849,7 +5576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87320e2a-eea3-4738-b771-c5a09448c091")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 41.91 128.27 0)
 			(effects
 				(font
@@ -5899,7 +5626,7 @@
 		(instances
 			(project "control-module"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -5914,7 +5641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c72fd3b-3441-430f-bcdc-837e7dbcdf4d")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR053"
 			(at 163.83 54.61 0)
 			(effects
 				(font
@@ -5964,7 +5691,7 @@
 		(instances
 			(project "control-module"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR054")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -5980,7 +5707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92b26b7c-4b24-4413-9052-a1d543134c15")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 41.91 138.43 0)
 			(effects
 				(font
@@ -6036,7 +5763,7 @@
 			)
 			(project "STM32U545RE"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6208,7 +5935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a93ada43-1d53-4181-ab42-a1e5ec7d86aa")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 80.01 161.29 0)
 			(effects
 				(font
@@ -6264,7 +5991,7 @@
 			)
 			(project "STM32U545RE"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6668,7 +6395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e28d6f9a-d705-4cc5-b212-f0c795a20117")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 67.31 161.29 0)
 			(effects
 				(font
@@ -6724,7 +6451,7 @@
 			)
 			(project "STM32U545RE"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -6824,7 +6551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed94f2fb-7090-46c9-b9b5-7b726d8e04a7")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 54.61 128.27 0)
 			(effects
 				(font
@@ -6874,7 +6601,7 @@
 		(instances
 			(project "control-module"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR043")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6890,7 +6617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4b42d59-e848-4581-83f4-1b148cf09a80")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR050"
 			(at 156.21 41.91 0)
 			(effects
 				(font
@@ -6946,7 +6673,7 @@
 			)
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR051")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -6962,7 +6689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7ef7fdb-92b0-4f2a-aa33-3862c85d9d6c")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 67.31 102.87 0)
 			(effects
 				(font
@@ -7012,7 +6739,7 @@
 		(instances
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)

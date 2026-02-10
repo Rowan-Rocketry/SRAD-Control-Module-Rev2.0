@@ -3,10 +3,12 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "6b0bcdb3-7cf1-4a54-b4bc-cf5da9dc16eb")
-	(paper "A4")
+	(paper "USLetter")
 	(title_block
-		(title "Battery and Power")
-		(company "Dynamite Rocketry")
+		(title "Control Module Rev2")
+		(date "2026-02-10")
+		(rev "2.0")
+		(company "Rowan Rocketry")
 	)
 	(lib_symbols
 		(symbol "Battery_Management:MCP73831-2-OT"
@@ -168,113 +170,6 @@
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "STAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2167,7 +2062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0320dc6a-24f2-421a-a10d-16e06a6a3a40")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR077"
 			(at 106.68 134.62 0)
 			(effects
 				(font
@@ -2223,7 +2118,7 @@
 			)
 			(project "dyna-micro"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/5906240e-8ee4-4d86-a3fe-186c4ac07fa9"
-					(reference "#PWR080")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -2239,7 +2134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0eadd4ce-d6db-4c88-a179-aa4ef5aee379")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR080"
 			(at 137.16 95.25 0)
 			(effects
 				(font
@@ -2295,7 +2190,7 @@
 			)
 			(project "dyna-micro"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/5906240e-8ee4-4d86-a3fe-186c4ac07fa9"
-					(reference "#PWR083")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -2557,7 +2452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46a51df7-9569-42fe-9859-8679f2b2af9b")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR084"
 			(at 186.69 81.28 0)
 			(effects
 				(font
@@ -2607,7 +2502,7 @@
 		(instances
 			(project "control-module"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/5906240e-8ee4-4d86-a3fe-186c4ac07fa9"
-					(reference "#PWR087")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -2699,7 +2594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dfb8227-5df6-4894-b310-5384cf84855c")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR083"
 			(at 148.59 95.25 0)
 			(effects
 				(font
@@ -2755,7 +2650,7 @@
 			)
 			(project "dyna-micro"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/5906240e-8ee4-4d86-a3fe-186c4ac07fa9"
-					(reference "#PWR086")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -2923,7 +2818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c8956cf-c795-4970-a177-7951ebcb5855")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR076"
 			(at 99.06 100.33 0)
 			(effects
 				(font
@@ -2979,7 +2874,7 @@
 			)
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/5906240e-8ee4-4d86-a3fe-186c4ac07fa9"
-					(reference "#PWR079")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -3071,7 +2966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7b07991-331c-4a87-ad5c-2d181ffde206")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR079"
 			(at 125.73 134.62 0)
 			(effects
 				(font
@@ -3127,7 +3022,7 @@
 			)
 			(project "dyna-micro"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/5906240e-8ee4-4d86-a3fe-186c4ac07fa9"
-					(reference "#PWR082")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -3228,7 +3123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b199bce9-ce94-49d7-9d53-c9176c75f7d6")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR082"
 			(at 139.7 134.62 0)
 			(effects
 				(font
@@ -3284,7 +3179,7 @@
 			)
 			(project "dyna-micro"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/5906240e-8ee4-4d86-a3fe-186c4ac07fa9"
-					(reference "#PWR085")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -3300,7 +3195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc0f96ee-1a78-4e93-a5bf-429668d4ff9d")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR081"
 			(at 139.7 121.92 0)
 			(effects
 				(font
@@ -3356,7 +3251,7 @@
 			)
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/5906240e-8ee4-4d86-a3fe-186c4ac07fa9"
-					(reference "#PWR084")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -3448,7 +3343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c76f8a7c-0ab0-4b70-9b33-0931fe586717")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR074"
 			(at 87.63 85.09 0)
 			(effects
 				(font
@@ -3498,7 +3393,7 @@
 		(instances
 			(project "control-module"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/5906240e-8ee4-4d86-a3fe-186c4ac07fa9"
-					(reference "#PWR077")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -3590,81 +3485,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 118.11 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd7fe597-2eca-45ed-af3d-ebd4410b259b")
-		(property "Reference" "TP_3V3_reg1"
-			(at 144.018 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 145.796 117.602 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 139.7 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 139.7 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase" "https://www.digikey.com/en/products/detail/keystone-electronics/5000/255326"
-			(at 139.7 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "754e82a4-819c-4684-9743-106c6fe1f120")
-		)
-		(instances
-			(project "control-module"
-				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/5906240e-8ee4-4d86-a3fe-186c4ac07fa9"
-					(reference "TP_3V3_reg1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 87.63 88.9 0)
 		(unit 1)
@@ -3674,7 +3494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e18190d5-6779-431f-8393-ebd72c8bced4")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR075"
 			(at 87.63 95.25 0)
 			(effects
 				(font
@@ -3730,7 +3550,7 @@
 			)
 			(project "dyna-micro"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/5906240e-8ee4-4d86-a3fe-186c4ac07fa9"
-					(reference "#PWR078")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -3746,7 +3566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5bb8bb1-f8d9-444d-b378-27e85eddf7fc")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR085"
 			(at 186.69 114.3 0)
 			(effects
 				(font
@@ -3802,7 +3622,7 @@
 			)
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/5906240e-8ee4-4d86-a3fe-186c4ac07fa9"
-					(reference "#PWR088")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -3894,7 +3714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f09f3cc7-3a0b-4553-ab56-8bf937ad81a5")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR078"
 			(at 116.84 97.79 0)
 			(effects
 				(font
@@ -3950,7 +3770,7 @@
 			)
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/5906240e-8ee4-4d86-a3fe-186c4ac07fa9"
-					(reference "#PWR081")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)

@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "7761db1c-f9c0-4350-aff2-01ef05a45511")
-	(paper "A4")
+	(paper "USLetter")
 	(title_block
-		(title "Ride-Along Module")
-		(date "2025-04-10")
-		(rev "1")
+		(title "Control Module Rev2")
+		(date "2026-02-10")
+		(rev "2.0")
 		(company "Rowan Rocketry")
 	)
 	(lib_symbols
@@ -351,113 +351,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -851,43 +744,9 @@
 		(color 0 0 0 0)
 		(uuid "0e3d26bf-9970-4185-97c9-0ced638d4c90")
 	)
-	(junction
-		(at 90.17 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f416cf4-fb6e-42f3-9014-226b1b305248")
-	)
-	(junction
-		(at 114.3 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f403922-a4d6-4db6-9a76-a8d15b5a3922")
-	)
-	(junction
-		(at 110.49 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3d6e4fc-f3e6-483d-ac6a-a8984937ac95")
-	)
-	(junction
-		(at 124.46 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7d9def4-b084-4d0f-b89b-b5d84c25e3ba")
-	)
 	(wire
 		(pts
-			(xy 124.46 95.25) (xy 125.73 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02765132-2ecc-4982-9ee7-41f7680b9e38")
-	)
-	(wire
-		(pts
-			(xy 123.19 95.25) (xy 124.46 95.25)
+			(xy 123.19 95.25) (xy 125.73 95.25)
 		)
 		(stroke
 			(width 0)
@@ -907,36 +766,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 85.09) (xy 125.73 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50266809-fa9f-4742-94d7-047a4f3f23f5")
-	)
-	(wire
-		(pts
-			(xy 114.3 73.66) (xy 114.3 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57132993-95d1-41e3-9a8e-ea445734b913")
-	)
-	(wire
-		(pts
-			(xy 110.49 90.17) (xy 110.49 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61a5c604-143e-46e6-8e22-57165b721851")
-	)
-	(wire
-		(pts
 			(xy 113.03 110.49) (xy 113.03 92.71)
 		)
 		(stroke
@@ -944,26 +773,6 @@
 			(type default)
 		)
 		(uuid "65594b89-5ad2-4ee0-9478-cf89d94dd6f4")
-	)
-	(wire
-		(pts
-			(xy 82.55 83.82) (xy 90.17 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "784288e2-ef51-4652-aa15-22d10dd92720")
-	)
-	(wire
-		(pts
-			(xy 110.49 90.17) (xy 125.73 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79f7023f-62f9-4b04-ab90-fb5192bc40e9")
 	)
 	(wire
 		(pts
@@ -977,7 +786,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 90.17) (xy 110.49 90.17)
+			(xy 107.95 90.17) (xy 125.73 90.17)
 		)
 		(stroke
 			(width 0)
@@ -987,17 +796,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 99.06) (xy 107.95 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cd761eb-2e02-43f0-9637-0919f2579efd")
-	)
-	(wire
-		(pts
-			(xy 111.76 85.09) (xy 114.3 85.09)
+			(xy 111.76 85.09) (xy 125.73 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1007,43 +806,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 95.25) (xy 124.46 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2af53f5-dd43-4555-93f2-27ace7f27351")
-	)
-	(wire
-		(pts
-			(xy 90.17 83.82) (xy 90.17 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e577754e-f56a-47d9-8e76-6969c52b77e4")
-	)
-	(wire
-		(pts
-			(xy 90.17 80.01) (xy 90.17 83.82)
+			(xy 90.17 80.01) (xy 90.17 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f3100334-a5ce-4672-91cc-9d238a6b1153")
-	)
-	(wire
-		(pts
-			(xy 107.95 93.98) (xy 110.49 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f46e6c87-b26f-4364-bd00-9f9c356f16eb")
 	)
 	(hierarchical_label "SD_CMD"
 		(shape input)
@@ -1121,7 +890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a2c4b72-a39d-42fc-aabd-aa048305e125")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR060"
 			(at 113.03 116.84 0)
 			(effects
 				(font
@@ -1177,157 +946,7 @@
 			)
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/02a5c5f6-b4e2-435d-aca7-a6d22478aa51"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 114.3 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ba98cff-3cc3-4f87-97d3-b606250cdd73")
-		(property "Reference" "TP_SD_CMD1"
-			(at 115.316 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 115.824 70.358 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 119.38 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 119.38 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 114.3 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase" "https://www.digikey.com/en/products/detail/keystone-electronics/5000/255326"
-			(at 114.3 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c049278-c0de-4e2c-adba-e48413b69437")
-		)
-		(instances
-			(project "control-module"
-				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/02a5c5f6-b4e2-435d-aca7-a6d22478aa51"
-					(reference "TP_SD_CMD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 124.46 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d099d68-9f21-4013-a091-d3d3a73aecdb")
-		(property "Reference" "TP_SD_DAT1"
-			(at 137.16 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 134.62 109.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 119.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 119.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 124.46 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase" "https://www.digikey.com/en/products/detail/keystone-electronics/5000/255326"
-			(at 124.46 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47b43c8d-b2c2-4873-b938-047315b15fb8")
-		)
-		(instances
-			(project "control-module"
-				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/02a5c5f6-b4e2-435d-aca7-a6d22478aa51"
-					(reference "TP_SD_DAT1")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -1343,7 +962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33633a7f-31e3-4b36-82e3-83c4ee9d3b2f")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR058"
 			(at 90.17 83.82 0)
 			(effects
 				(font
@@ -1399,7 +1018,7 @@
 			)
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/02a5c5f6-b4e2-435d-aca7-a6d22478aa51"
-					(reference "#PWR060")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -1415,7 +1034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61828364-b851-4178-b12f-4192bd38337e")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR059"
 			(at 90.17 101.6 0)
 			(effects
 				(font
@@ -1471,82 +1090,7 @@
 			)
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/02a5c5f6-b4e2-435d-aca7-a6d22478aa51"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 107.95 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87592bbb-a3ba-40c3-a13a-e5f2893f0969")
-		(property "Reference" "TP_SD_CLK1"
-			(at 106.934 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 106.426 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 102.87 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 102.87 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 107.95 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase" "https://www.digikey.com/en/products/detail/keystone-electronics/5000/255326"
-			(at 107.95 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e7115ea-e14d-4537-a0b8-05f1711f095d")
-		)
-		(instances
-			(project "control-module"
-				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/02a5c5f6-b4e2-435d-aca7-a6d22478aa51"
-					(reference "TP_SD_CLK1")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -1562,7 +1106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "884b7cfc-dd98-4d14-81df-449183d20d28")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR061"
 			(at 168.91 109.22 0)
 			(effects
 				(font
@@ -1618,7 +1162,7 @@
 			)
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/02a5c5f6-b4e2-435d-aca7-a6d22478aa51"
-					(reference "#PWR063")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -1815,81 +1359,6 @@
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/02a5c5f6-b4e2-435d-aca7-a6d22478aa51"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 82.55 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea456953-98ec-45f2-8c30-8d403639eecb")
-		(property "Reference" "TP_3V3_sd1"
-			(at 80.518 81.534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 77.724 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 82.55 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 82.55 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 82.55 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase" "https://www.digikey.com/en/products/detail/keystone-electronics/5000/255326"
-			(at 82.55 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a0acac6-4bff-4924-abf9-85b2d86c872f")
-		)
-		(instances
-			(project "control-module"
-				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/02a5c5f6-b4e2-435d-aca7-a6d22478aa51"
-					(reference "TP_3V3_sd1")
 					(unit 1)
 				)
 			)
