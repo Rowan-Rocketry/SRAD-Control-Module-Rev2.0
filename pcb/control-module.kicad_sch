@@ -3192,6 +3192,18 @@
 		)
 	)
 	(rectangle
+		(start 20.32 184.15)
+		(end 53.34 201.295)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 245898d9-47ec-42f5-abeb-8be66849c92d)
+	)
+	(rectangle
 		(start 224.79 132.715)
 		(end 250.19 165.1)
 		(stroke
@@ -3225,6 +3237,16 @@
 		)
 		(uuid "10359644-e329-4a7f-aa58-04758f328809")
 	)
+	(text "Notes:"
+		(exclude_from_sim no)
+		(at 23.622 183.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "946b5090-8154-4215-8a58-176d9acedf80")
+	)
 	(text "Divide battery voltage by four to\nfit in ADC range. Will by \nmultiplied by 4 in software."
 		(exclude_from_sim no)
 		(at 80.518 31.496 0)
@@ -3244,6 +3266,17 @@
 			)
 		)
 		(uuid "c2b6236b-5e46-405e-a9f9-6b6b9e1a2115")
+	)
+	(text "Current max board dimensions: \n63.5mm x 63.5mm"
+		(exclude_from_sim no)
+		(at 20.828 187.198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cda70b7e-7695-48b2-b684-b9ac25b66c52")
 	)
 	(text "Only using\n1-bit now"
 		(exclude_from_sim no)
@@ -9781,7 +9814,7 @@
 		)
 	)
 	(sheet
-		(at 22.86 179.07)
+		(at 16.51 157.48)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9797,7 +9830,7 @@
 		)
 		(uuid "e9123753-6f69-4755-8149-390f393c9b11")
 		(property "Sheetname" "transmitter"
-			(at 22.86 178.3584 0)
+			(at 16.51 156.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9806,7 +9839,7 @@
 			)
 		)
 		(property "Sheetfile" "transmitter.kicad_sch"
-			(at 22.86 183.4646 0)
+			(at 16.51 161.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9823,7 +9856,7 @@
 		)
 	)
 	(sheet
-		(at 17.78 162.56)
+		(at 16.51 147.32)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9839,7 +9872,7 @@
 		)
 		(uuid "fc9e3a2d-4610-4d80-a238-b7d530352ab2")
 		(property "Sheetname" "Ublox_GPS_module"
-			(at 17.78 161.8484 0)
+			(at 16.51 146.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9848,7 +9881,7 @@
 			)
 		)
 		(property "Sheetfile" "GPS_module.kicad_sch"
-			(at 17.78 166.9546 0)
+			(at 16.51 151.7146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
