@@ -1949,26 +1949,6 @@
 		)
 		(uuid "fe2f1e66-631e-40b4-9014-e267d2d72760")
 	)
-	(label "V_USB"
-		(at 69.85 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c2d4b90d-1171-41c5-a9e2-2090458934d1")
-	)
-	(label "V_USB"
-		(at 55.88 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "feb8641c-e3e5-4cdb-b156-5a79036c5e71")
-	)
 	(hierarchical_label "USB_D_N"
 		(shape bidirectional)
 		(at 88.9 77.47 0)
@@ -1980,7 +1960,7 @@
 		)
 		(uuid "6b2dc594-0bad-4ea3-8ae1-f767c3719c61")
 	)
-	(hierarchical_label "V_USB"
+	(hierarchical_label "+5V_USB"
 		(shape output)
 		(at 46.99 43.18 180)
 		(effects
@@ -2780,6 +2760,72 @@
 			(project "control-module"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/b41619a2-11a0-4fcf-9c2d-b1ec93f6b99c"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 55.88 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d495a79b-5069-4cce-8662-5ea2afa49c74")
+		(property "Reference" "#PWR0123"
+			(at 55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_USB"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4635cada-3423-4adf-a53b-36b98ffb3e91")
+		)
+		(instances
+			(project "control-module"
+				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/b41619a2-11a0-4fcf-9c2d-b1ec93f6b99c"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
