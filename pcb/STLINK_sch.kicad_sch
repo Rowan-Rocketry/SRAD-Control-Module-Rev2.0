@@ -593,8 +593,26 @@
 		(uuid "54d2f94c-91b7-4ffc-b980-cb7a9e94eb81")
 	)
 	(no_connect
+		(at 207.01 100.33)
+		(uuid "60dee7c5-5e8c-4bcd-8980-8e064bfe9010")
+	)
+	(no_connect
+		(at 207.01 95.25)
+		(uuid "88475405-0358-489f-af17-d2f35dcd48a3")
+	)
+	(no_connect
 		(at 142.24 100.33)
 		(uuid "d170309a-c9ec-4d8a-b8c1-ad184b441fd7")
+	)
+	(wire
+		(pts
+			(xy 195.58 113.03) (xy 194.31 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34542ee6-1039-4a91-8569-c9aa293ee277")
 	)
 	(wire
 		(pts
@@ -615,6 +633,16 @@
 			(type default)
 		)
 		(uuid "5ed05162-b40b-46d4-bc14-e8e2808ac57c")
+	)
+	(wire
+		(pts
+			(xy 194.31 73.66) (xy 194.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6624c911-775f-4a17-a791-8007d41acf48")
 	)
 	(wire
 		(pts
@@ -646,6 +674,36 @@
 		)
 		(uuid "bc7fa1ba-b157-4081-ad8b-fa7e0384f7d5")
 	)
+	(wire
+		(pts
+			(xy 195.58 113.03) (xy 195.58 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2deed66-5598-4b8a-8bfb-c823d6660464")
+	)
+	(wire
+		(pts
+			(xy 190.5 113.03) (xy 191.77 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63fb346-daff-4ea2-879f-edc719246a3d")
+	)
+	(wire
+		(pts
+			(xy 190.5 115.57) (xy 190.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deab731a-b0a1-4a4c-b3d6-a4723290c721")
+	)
 	(hierarchical_label "STLink_RX"
 		(shape input)
 		(at 142.24 107.95 0)
@@ -656,6 +714,50 @@
 			(justify left)
 		)
 		(uuid "127fe448-3c73-4f79-9822-b127dc0d36f2")
+	)
+	(hierarchical_label "SWO_radio"
+		(shape output)
+		(at 207.01 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "207dec48-9561-4331-8562-595c28ca32ee")
+	)
+	(hierarchical_label "STLink_radio_TX"
+		(shape input)
+		(at 207.01 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "272e9bdc-757e-40e2-942a-b945ae37d479")
+	)
+	(hierarchical_label "SWDIO_radio"
+		(shape bidirectional)
+		(at 207.01 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f4ff69d-4a39-423f-8eef-ae905d15fc31")
+	)
+	(hierarchical_label "NRST_radio"
+		(shape output)
+		(at 207.01 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c0da4f4-5b43-46c5-98d3-fe35ea5dca54")
 	)
 	(hierarchical_label "SWO"
 		(shape output)
@@ -701,6 +803,17 @@
 		)
 		(uuid "8ac9834e-af32-4f06-b109-3d47fd02f592")
 	)
+	(hierarchical_label "SWCLK_radio"
+		(shape output)
+		(at 207.01 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9427314a-69d5-4399-aff6-8ce03be103b8")
+	)
 	(hierarchical_label "SWCLK"
 		(shape output)
 		(at 142.24 87.63 0)
@@ -711,6 +824,17 @@
 			(justify left)
 		)
 		(uuid "be047c84-c491-4819-8822-008e15303f09")
+	)
+	(hierarchical_label "STLink_radio_RX"
+		(shape output)
+		(at 207.01 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c126bea1-1c14-4cee-9e7b-dbfe838c09b3")
 	)
 	(symbol
 		(lib_id "power:GNDD")
@@ -773,6 +897,139 @@
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/df83429b-f2ab-448f-b3ce-9aa6514ebb89"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 194.31 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cb92a56-7df0-4d0e-9336-71f08be790a8")
+		(property "Reference" "#PWR0132"
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_radio"
+			(at 194.3101 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 194.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60846733-17cf-4f26-b815-524706a3caa8")
+		)
+		(instances
+			(project "control-module"
+				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/df83429b-f2ab-448f-b3ce-9aa6514ebb89"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 195.58 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23ce923b-f346-46ae-858f-4b98ce4f0e5f")
+		(property "Reference" "#PWR0134"
+			(at 195.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 195.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 195.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b09cbc1-ea40-409c-88dd-a0af419b3c0c")
+		)
+		(instances
+			(project "control-module"
+				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/df83429b-f2ab-448f-b3ce-9aa6514ebb89"
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -954,6 +1211,196 @@
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/df83429b-f2ab-448f-b3ce-9aa6514ebb89"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 190.5 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7abf369b-88cf-4047-97d2-0cf148e9b99b")
+		(property "Reference" "#PWR0130"
+			(at 190.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 190.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11ea4fb8-7482-4865-89e1-a67a503c0125")
+		)
+		(instances
+			(project "control-module"
+				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/df83429b-f2ab-448f-b3ce-9aa6514ebb89"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_ST_STDC14")
+		(at 194.31 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d18cb82e-f14d-4862-bd9c-da6e7806eb60")
+		(property "Reference" "J7"
+			(at 182.88 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_ST_STDC14"
+			(at 182.88 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical"
+			(at 194.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf"
+			(at 185.42 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"
+			(at 194.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ".\\"
+			(at 194.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 194.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64a72624-5999-44b6-8757-3d7fd74b8adb")
+		)
+		(pin "10"
+			(uuid "5400d4e1-1621-4ac5-8e8f-7a85b41a69a8")
+		)
+		(pin "9"
+			(uuid "429fa64e-94af-4ae8-8d9e-0973178af22e")
+		)
+		(pin "7"
+			(uuid "0c25e380-b0fa-49cf-8fd1-cc55b0b6f8f6")
+		)
+		(pin "12"
+			(uuid "08385eb6-09a9-4ba6-9f19-dd96bd20e0db")
+		)
+		(pin "6"
+			(uuid "55ccdb73-9645-4e86-b1c8-b3c1c65a8129")
+		)
+		(pin "5"
+			(uuid "4d28abea-0421-413c-936c-339ba19d9083")
+		)
+		(pin "2"
+			(uuid "8abd52ed-7a12-4f9d-9fcf-2f3208e53ae9")
+		)
+		(pin "11"
+			(uuid "5149ff1c-d1d7-4aef-ad0e-dbd3ed4e3066")
+		)
+		(pin "13"
+			(uuid "a80a5446-2fa1-4ce0-8cd5-4b74ffada89b")
+		)
+		(pin "14"
+			(uuid "e0279056-38d1-4bb4-9c4c-d83f08524aea")
+		)
+		(pin "3"
+			(uuid "caaac274-5446-4a30-8bef-c27525c3637a")
+		)
+		(pin "8"
+			(uuid "fa8c3f9c-a282-4d15-8e05-7b6b577d4015")
+		)
+		(pin "4"
+			(uuid "032a81fa-9cc3-428d-a634-d06ee0408977")
+		)
+		(instances
+			(project "control-module"
+				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/df83429b-f2ab-448f-b3ce-9aa6514ebb89"
+					(reference "J7")
 					(unit 1)
 				)
 			)
